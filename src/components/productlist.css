@@ -1,0 +1,43 @@
+.product-page {
+    display: flex;
+    padding: 20px;
+  }
+  .filters {
+    width: 200px;
+    margin-right: 20px;
+  }
+  .main-content {
+    flex: 1;
+  }
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 1rem;
+
+  }
+  
+  .product-card {
+  padding: 15px;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+  .sort-bar {
+    margin-bottom: 10px;
+  }
+  .react-select-container {
+    width: 300px; 
+  }
